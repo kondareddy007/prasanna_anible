@@ -1,0 +1,7 @@
+- name : variables from PLAY level
+  hosts : lacalhost
+  tasks :
+  - name : check variables
+    course : "Devops with aws"
+    ansible.builtin.debug:
+    msg : "hello{{PERSON}},good{{WISHES}}"

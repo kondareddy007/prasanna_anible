@@ -1,0 +1,13 @@
+- name : variables from prompt
+  hosts : lacalhost
+  vars-prompt :
+  - name : USERNAME
+    prompt : please enter your user name
+    private : false #user can see what they are entering
+  - name : PASSWORD
+    prompt : please enter your password
+    private : true #user can not see what they are entering
+  tasks :
+  - name : print and check values 
+    ansible.builtin.debug:
+    msg : "Hii,i am learning {{course}},trainer is {{trainer}},duration is {{duration}}

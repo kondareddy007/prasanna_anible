@@ -1,0 +1,9 @@
+<Person>
+    <name>prasanna annavarapu</name>
+    <DOB>1998-06-04</DOB>
+    <Address>
+        <address-line1>shyamala hostal</address-line1>
+        <address-line2>kphp 7th phase</address-line2>
+        <street>ankura backside</street>
+        <city>Hyderabad</city>
+    </Address>
