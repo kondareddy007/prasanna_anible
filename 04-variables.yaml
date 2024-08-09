@@ -2,9 +2,9 @@
 - name: variables from PLAY level
   hosts: lacalhost
   vars:
-    course: devops
-    trainer: sivakumar
-    duration: 110hrs
+    course: "devops"
+    trainer: "sivakumar"
+    duration: "110hrs"
   tasks:
     - name: check variables
       ansible.builtin.debug: null
