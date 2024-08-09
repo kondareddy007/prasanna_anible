@@ -1,6 +1,6 @@
 ---
 - name: variables from PLAY level
-  hosts: lacalhost
+  hosts: web
   vars:
     course: devops
     trainer: sivakumar
